@@ -1,0 +1,543 @@
+2017.03.29 20:25:52 INFO  [pool-4-thread-2]: org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path D:\java_project\company\openfire_src_4_1_3\target\openfire\plugins\nodejs\native\win-64\node
+2017.03.29 20:25:52 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'nodejs'.
+2017.03.29 20:25:52 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'nonsaslauthentication'.
+2017.03.29 20:25:52 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'packetfilter'.
+2017.03.29 20:25:52 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'monitoring'.
+2017.03.29 20:25:53 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'presence'.
+2017.03.29 20:25:53 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.contact.laptop-pp5bi4rg from watched Transports.
+2017.03.29 20:25:53 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.enabled.laptop-pp5bi4rg from watched Transports.
+2017.03.29 20:25:53 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'registration'.
+2017.03.29 20:25:53 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'search'.
+2017.03.29 20:25:53 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sip'.
+2017.03.29 20:25:53 INFO  [pool-4-thread-4]: org.voicebridge.Application - VoiceBridge logs D:\java_project\company\openfire_src_4_1_3\target\openfire\plugins\rayo\..\..\logs\
+2017.03.29 20:25:53 INFO  [pool-4-thread-4]: org.voicebridge.Config - VoiceBridge read site configuration
+2017.03.29 20:25:53 INFO  [pool-4-thread-4]: org.voicebridge.Config - VoiceBridge create  conference: workgroup-demo with pin null extension null
+2017.03.29 20:25:54 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoPlugin - checkNatives.D:\java_project\company\openfire_src_4_1_3\target\openfire\plugins\rayo\lib
+2017.03.29 20:25:54 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoPlugin - Native lib folder already exist.
+2017.03.29 20:25:54 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoPlugin - Rayo Plugin Loaded.
+2017.03.29 20:25:54 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoComponent - RayoComponent initialize rayo.laptop-pp5bi4rg
+2017.03.29 20:25:54 ERROR [pool-4-thread-3]: org.jinglenodes.JingleNodesPlugin - verifyNetwork Failed - failed to retrieve public address from test STUN server stun.l.google.com:19302
+2017.03.29 20:25:54 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'jinglenodes'.
+2017.03.29 20:25:54 INFO  [pool-4-thread-4]: org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2017.03.29 20:25:54 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'subscription'.
+2017.03.29 20:25:54 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'usercreation'.
+2017.03.29 20:25:54 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'userimportexport'.
+2017.03.29 20:25:54 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.websocket.WebSocketPlugin - Initializing websocket plugin
+2017.03.29 20:25:54 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'websocket'.
+2017.03.29 20:25:54 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'mucservice'.
+2017.03.29 20:25:54 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'stunserver'.
+2017.03.29 20:25:54 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'xmldebugger'.
+2017.03.29 20:25:54 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoComponent - Starting jCumulus.....
+2017.03.29 20:25:54 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoComponent - Listening on 1935 port
+2017.03.29 20:25:54 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'rayo'.
+2017.03.29 20:25:54 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.03.29 20:25:54 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2017.03.29 20:25:54 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2017.03.29 20:25:54 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.29 20:25:54 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.03.29 20:25:54 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.03.29 20:25:54 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.03.29 20:25:54 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.03.29 20:25:54 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.03.29 20:25:54 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.03.29 20:25:56 INFO  [pool-3-thread-1]: /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2017.03.29 20:25:57 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.03.29 20:25:57 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.03.29 20:25:57 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.03.29 20:34:00 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2017.03.29 20:34:00 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2017.03.29 20:34:01 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2017.03.29 20:34:01 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2017.03.29 20:34:01 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2017.03.29 20:34:01 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2017.03.29 20:34:01 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2017.03.29 20:34:01 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2017.03.29 20:34:01 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2017.03.29 20:34:01 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2017.03.29 20:34:01 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2017.03.29 20:34:02 ERROR [main]: org.jivesoftware.openfire.vcard.VCardManager - Error loading vcard provider: org.igniterealtime.openfire.plugin.avatarresizer.DelegateVCardProvider
+java.lang.ClassNotFoundException: org.igniterealtime.openfire.plugin.avatarresizer.DelegateVCardProvider
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at org.jivesoftware.util.ClassUtils.loadClass(ClassUtils.java:76)
+	at org.jivesoftware.util.ClassUtils.forName(ClassUtils.java:48)
+	at org.jivesoftware.openfire.vcard.VCardManager.initialize(VCardManager.java:262)
+	at org.jivesoftware.openfire.XMPPServer.initModules(XMPPServer.java:539)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:428)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:163)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at java.lang.Class.newInstance0(Class.java:374)
+	at java.lang.Class.newInstance(Class.java:327)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2017.03.29 20:34:02 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.laptop-pp5bi4rg
+2017.03.29 20:34:02 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.laptop-pp5bi4rg
+2017.03.29 20:34:03 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.1.3 [Mar 29, 2017 8:34:03 PM]
+2017.03.29 20:34:04 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.03.29 20:34:04 INFO  [pool-3-thread-1]: / - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2017.03.29 20:34:04 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2017.03.29 20:34:04 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2017.03.29 20:34:04 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://laptop-pp5bi4rg:9090
+  https://laptop-pp5bi4rg:9091
+2017.03.29 20:34:04 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2017.03.29 20:34:04 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'avatarresizer'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'broadcast'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'bookmarks'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'clientcontrol'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'dbaccess'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'emailonaway'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'contentfilter'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'emaillistener'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager -  Created TransportSessionManager
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Created MainInterceptor for GoJara Plugin.
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created DiscoIQRegisteredProcessor
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created IQRosterPayloadProcessor
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created NonPersistantProcessor
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created StatisticsProcessor
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created ClientToComponentUpdateProcessor
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created WhitelistProcessor
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created MucFilterProcessor
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created GojaraAdminProcessor
+2017.03.29 20:34:05 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'callbackonoffline'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'hazelcast'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager - Initializing Sessions.
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.base.RemoteRosterPlugin - Started Gojara successfully. Currently running interceptors: 6
+2017.03.29 20:34:05 INFO  [pool-4-thread-1]: org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'gojara'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'justmarried'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: JmxWebPlugin - [jmxweb] .. started stanza counter.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: JmxWebPlugin - [jmxweb] starting jolokia
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: JmxWebPlugin - [jmxweb] starting hawtio
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: JmxWebPlugin - [jmxweb] starting email monitoring
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.util.Logger - Logging using commons-logging.
+2017.03.29 20:34:05 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'fastpath'.
+2017.03.29 20:34:05 ERROR [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - An exception occurred while loading plugin 'loadstats':
+java.lang.NullPointerException
+	at org.apache.mina.management.MINAStatCollector.start(MINAStatCollector.java:129)
+	at org.jivesoftware.openfire.plugin.StatCollector.start(StatCollector.java:152)
+	at org.jivesoftware.openfire.plugin.StatisticPlugin.initializePlugin(StatisticPlugin.java:42)
+	at org.jivesoftware.openfire.container.PluginManager.loadPlugin(PluginManager.java:407)
+	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask$4.call(PluginMonitor.java:276)
+	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask$4.call(PluginMonitor.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.DWRServlet - retrieved system configuration file: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@2c703723
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'spring' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/springframework/beans/factory/BeanFactory
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'script' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/apache/bsf/BSFException
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-4-thread-2
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Converter 'hibernate' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Failed to find either org.hibernate.Hibernate or net.sf.hibernate.Hibernate.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017.03.29 20:34:05 INFO  [pool-4-thread-4]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Session Location Cache
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: JmxWebPlugin - [jmxweb] started monitoring
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'jmxweb'.
+2017.03.29 20:34:05 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'motd'.
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.DWRServlet - retrieved system configuration file: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@3c6f571e
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'spring' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/springframework/beans/factory/BeanFactory
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'script' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/apache/bsf/BSFException
+2017.03.29 20:34:06 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'kraken'.
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Converter 'hibernate' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Failed to find either org.hibernate.Hibernate or net.sf.hibernate.Hibernate.
+2017.03.29 20:34:06 INFO  [pool-4-thread-4]: org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path D:\java_project\company\openfire_src_4_1_3\target\openfire\plugins\nodejs\native\win-64\node
+2017.03.29 20:34:06 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'nodejs'.
+2017.03.29 20:34:06 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'nonsaslauthentication'.
+2017.03.29 20:34:06 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'packetfilter'.
+2017.03.29 20:34:06 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'presence'.
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'monitoring'.
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.contact.laptop-pp5bi4rg from watched Transports.
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.enabled.laptop-pp5bi4rg from watched Transports.
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'registration'.
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'search'.
+2017.03.29 20:34:06 INFO  [pool-4-thread-4]: org.voicebridge.Application - VoiceBridge logs D:\java_project\company\openfire_src_4_1_3\target\openfire\plugins\rayo\..\..\logs\
+2017.03.29 20:34:06 INFO  [pool-4-thread-4]: org.voicebridge.Config - VoiceBridge read site configuration
+2017.03.29 20:34:06 INFO  [pool-4-thread-4]: org.voicebridge.Config - VoiceBridge create  conference: workgroup-demo with pin null extension null
+2017.03.29 20:34:06 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sip'.
+2017.03.29 20:34:07 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoPlugin - checkNatives.D:\java_project\company\openfire_src_4_1_3\target\openfire\plugins\rayo\lib
+2017.03.29 20:34:07 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoPlugin - Native lib folder already exist.
+2017.03.29 20:34:07 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoPlugin - Rayo Plugin Loaded.
+2017.03.29 20:34:07 ERROR [pool-4-thread-1]: org.jinglenodes.JingleNodesPlugin - verifyNetwork Failed - failed to retrieve public address from test STUN server stun.l.google.com:19302
+2017.03.29 20:34:07 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'jinglenodes'.
+2017.03.29 20:34:07 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'subscription'.
+2017.03.29 20:34:07 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'mucservice'.
+2017.03.29 20:34:07 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'usercreation'.
+2017.03.29 20:34:07 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.websocket.WebSocketPlugin - Initializing websocket plugin
+2017.03.29 20:34:07 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'websocket'.
+2017.03.29 20:34:07 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'userimportexport'.
+2017.03.29 20:34:07 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'xmldebugger'.
+2017.03.29 20:34:07 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'stunserver'.
+2017.03.29 20:34:07 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoComponent - RayoComponent initialize rayo.laptop-pp5bi4rg
+2017.03.29 20:34:07 INFO  [pool-4-thread-4]: org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2017.03.29 20:34:08 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoComponent - Starting jCumulus.....
+2017.03.29 20:34:08 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoComponent - Listening on 1935 port
+2017.03.29 20:34:08 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'rayo'.
+2017.03.29 20:34:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.03.29 20:34:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2017.03.29 20:34:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2017.03.29 20:34:08 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.29 20:34:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.03.29 20:34:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.03.29 20:34:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.03.29 20:34:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.03.29 20:34:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.03.29 20:34:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.03.29 20:34:09 INFO  [pool-3-thread-1]: /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2017.03.29 20:34:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.03.29 20:34:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.03.29 20:34:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.03.29 20:34:25 INFO  [Jetty-QTP-AdminConsole-34]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2017.03.29 20:35:23 WARN  [Jetty-QTP-AdminConsole-103]: org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/mucservice/chatrooms
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.29 20:49:23 INFO  [Jetty-QTP-AdminConsole-269]: uk.ltd.getahead.dwr.util.Logger - Logging using commons-logging.
+2017.03.29 20:49:23 INFO  [Jetty-QTP-AdminConsole-269]: uk.ltd.getahead.dwr.DWRServlet - retrieved system configuration file: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@2f289aaa
+2017.03.29 20:49:23 INFO  [Jetty-QTP-AdminConsole-269]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'jsf' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: javax/faces/el/ValueBinding
+2017.03.29 20:49:23 INFO  [Jetty-QTP-AdminConsole-269]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.
+2017.03.29 20:49:23 INFO  [Jetty-QTP-AdminConsole-269]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'spring' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/springframework/beans/factory/BeanFactory
+2017.03.29 20:49:23 INFO  [Jetty-QTP-AdminConsole-269]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'script' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/apache/bsf/BSFException
+2017.03.29 20:49:23 INFO  [Jetty-QTP-AdminConsole-269]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Converter 'hibernate' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Failed to find either org.hibernate.Hibernate or net.sf.hibernate.Hibernate.
+2017.03.29 20:50:02 INFO  [Jetty-QTP-AdminConsole-300]: uk.ltd.getahead.dwr.impl.ExecuteQuery - Exec[0]: downloader.installPlugin()
+2017.03.29 20:50:07 INFO  [pool-220-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'restapi'.
+2017.03.29 20:50:07 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.03.29 20:50:33 INFO  [Jetty-QTP-AdminConsole-298]: org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing plugin.restapi.customAuthFilter.laptop-pp5bi4rg from watched Transports.
+2017.03.29 20:50:42 WARN  [Jetty-QTP-AdminConsole-270]: org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/restapi/v1/users
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.29 21:09:12 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2017.03.29 21:09:12 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2017.03.29 21:09:14 ERROR [main]: org.jivesoftware.openfire.vcard.VCardManager - Error loading vcard provider: org.igniterealtime.openfire.plugin.avatarresizer.DelegateVCardProvider
+java.lang.ClassNotFoundException: org.igniterealtime.openfire.plugin.avatarresizer.DelegateVCardProvider
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at org.jivesoftware.util.ClassUtils.loadClass(ClassUtils.java:76)
+	at org.jivesoftware.util.ClassUtils.forName(ClassUtils.java:48)
+	at org.jivesoftware.openfire.vcard.VCardManager.initialize(VCardManager.java:262)
+	at org.jivesoftware.openfire.XMPPServer.initModules(XMPPServer.java:539)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:428)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:163)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at java.lang.Class.newInstance0(Class.java:374)
+	at java.lang.Class.newInstance(Class.java:327)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2017.03.29 21:09:14 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2017.03.29 21:09:14 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.laptop-pp5bi4rg
+2017.03.29 21:09:15 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.laptop-pp5bi4rg
+2017.03.29 21:09:15 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.1.3 [Mar 29, 2017 9:09:15 PM]
+2017.03.29 21:09:16 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.03.29 21:09:16 INFO  [pool-3-thread-1]: / - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2017.03.29 21:09:16 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2017.03.29 21:09:16 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2017.03.29 21:09:16 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://laptop-pp5bi4rg:9090
+  https://laptop-pp5bi4rg:9091
+2017.03.29 21:09:16 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2017.03.29 21:09:16 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'avatarresizer'.
+2017.03.29 21:09:16 ERROR [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - An exception occurred while loading plugin 'callbackonoffline':
+java.lang.NoClassDefFoundError: javax/ws/rs/client/ClientBuilder
+	at com.fotsum.CallbackOnOffline.initializePlugin(CallbackOnOffline.java:50)
+	at org.jivesoftware.openfire.container.PluginManager.loadPlugin(PluginManager.java:407)
+	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask$4.call(PluginMonitor.java:276)
+	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask$4.call(PluginMonitor.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: javax.ws.rs.client.ClientBuilder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	... 9 more
+2017.03.29 21:09:16 INFO  [pool-4-thread-4]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2017.03.29 21:09:16 INFO  [pool-4-thread-4]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2017.03.29 21:09:16 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'broadcast'.
+2017.03.29 21:09:16 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'dbaccess'.
+2017.03.29 21:09:16 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'contentfilter'.
+2017.03.29 21:09:16 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'emailonaway'.
+2017.03.29 21:09:16 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'emaillistener'.
+2017.03.29 21:09:16 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager -  Created TransportSessionManager
+2017.03.29 21:09:16 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Created MainInterceptor for GoJara Plugin.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'bookmarks'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created DiscoIQRegisteredProcessor
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created IQRosterPayloadProcessor
+2017.03.29 21:09:17 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'clientcontrol'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created NonPersistantProcessor
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'hazelcast'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created StatisticsProcessor
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created ClientToComponentUpdateProcessor
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created WhitelistProcessor
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created MucFilterProcessor
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created GojaraAdminProcessor
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2017.03.29 21:09:17 INFO  [pool-4-thread-2]: org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager - Initializing Sessions.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.plugin.gojara.base.RemoteRosterPlugin - Started Gojara successfully. Currently running interceptors: 5
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'gojara'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'justmarried'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: JmxWebPlugin - [jmxweb] .. started stanza counter.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: JmxWebPlugin - [jmxweb] starting jolokia
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: JmxWebPlugin - [jmxweb] starting hawtio
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: JmxWebPlugin - [jmxweb] starting email monitoring
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.util.Logger - Logging using commons-logging.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-4-thread-3
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.DWRServlet - retrieved system configuration file: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@2229c34b
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'spring' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/springframework/beans/factory/BeanFactory
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'script' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/apache/bsf/BSFException
+2017.03.29 21:09:17 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'fastpath'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: JmxWebPlugin - [jmxweb] started monitoring
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'jmxweb'.
+2017.03.29 21:09:17 ERROR [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - An exception occurred while loading plugin 'loadstats':
+java.lang.NullPointerException
+	at org.apache.mina.management.MINAStatCollector.start(MINAStatCollector.java:129)
+	at org.jivesoftware.openfire.plugin.StatCollector.start(StatCollector.java:152)
+	at org.jivesoftware.openfire.plugin.StatisticPlugin.initializePlugin(StatisticPlugin.java:42)
+	at org.jivesoftware.openfire.container.PluginManager.loadPlugin(PluginManager.java:407)
+	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask$4.call(PluginMonitor.java:276)
+	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask$4.call(PluginMonitor.java:264)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Converter 'hibernate' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Failed to find either org.hibernate.Hibernate or net.sf.hibernate.Hibernate.
+2017.03.29 21:09:17 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'motd'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Session Location Cache
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'kraken'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path D:\java_project\company\openfire_src_4_1_3\target\openfire\plugins\nodejs\native\win-64\node
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'nodejs'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.DWRServlet - retrieved system configuration file: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@71141793
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'spring' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/springframework/beans/factory/BeanFactory
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'script' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/apache/bsf/BSFException
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Converter 'hibernate' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Failed to find either org.hibernate.Hibernate or net.sf.hibernate.Hibernate.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'nonsaslauthentication'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'packetfilter'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'presence'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'monitoring'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.contact.laptop-pp5bi4rg from watched Transports.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.enabled.laptop-pp5bi4rg from watched Transports.
+2017.03.29 21:09:17 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'registration'.
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.voicebridge.Application - VoiceBridge logs D:\java_project\company\openfire_src_4_1_3\target\openfire\plugins\rayo\..\..\logs\
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.voicebridge.Config - VoiceBridge read site configuration
+2017.03.29 21:09:17 INFO  [pool-4-thread-4]: org.voicebridge.Config - VoiceBridge create  conference: workgroup-demo with pin null extension null
+2017.03.29 21:09:18 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoPlugin - checkNatives.D:\java_project\company\openfire_src_4_1_3\target\openfire\plugins\rayo\lib
+2017.03.29 21:09:18 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoPlugin - Native lib folder already exist.
+2017.03.29 21:09:18 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoPlugin - Rayo Plugin Loaded.
+2017.03.29 21:09:18 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoComponent - RayoComponent initialize rayo.laptop-pp5bi4rg
+2017.03.29 21:09:18 ERROR [pool-4-thread-2]: org.jinglenodes.JingleNodesPlugin - verifyNetwork Failed - failed to retrieve public address from test STUN server stun.l.google.com:19302
+2017.03.29 21:09:18 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'jinglenodes'.
+2017.03.29 21:09:18 INFO  [pool-4-thread-4]: org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2017.03.29 21:09:18 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'search'.
+2017.03.29 21:09:18 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sip'.
+2017.03.29 21:09:18 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'mucservice'.
+2017.03.29 21:09:18 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'restapi'.
+2017.03.29 21:09:18 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'subscription'.
+2017.03.29 21:09:19 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'usercreation'.
+2017.03.29 21:09:19 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.websocket.WebSocketPlugin - Initializing websocket plugin
+2017.03.29 21:09:19 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'websocket'.
+2017.03.29 21:09:19 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoComponent - Starting jCumulus.....
+2017.03.29 21:09:19 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'userimportexport'.
+2017.03.29 21:09:19 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'xmldebugger'.
+2017.03.29 21:09:19 INFO  [pool-4-thread-4]: org.ifsoft.rayo.RayoComponent - Listening on 1935 port
+2017.03.29 21:09:19 INFO  [pool-4-thread-4]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'rayo'.
+2017.03.29 21:09:19 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'stunserver'.
+2017.03.29 21:09:19 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.03.29 21:09:19 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2017.03.29 21:09:19 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2017.03.29 21:09:19 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.29 21:09:19 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.03.29 21:09:19 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.03.29 21:09:19 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.03.29 21:09:19 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.03.29 21:09:19 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.03.29 21:09:19 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.03.29 21:09:20 INFO  [pool-3-thread-1]: /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2017.03.29 21:09:20 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.03.29 21:09:20 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.03.29 21:09:20 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.03.29 21:09:28 INFO  [Jetty-QTP-AdminConsole-34]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2017.03.29 21:13:45 INFO  [Jetty-QTP-AdminConsole-34]: uk.ltd.getahead.dwr.util.Logger - Logging using commons-logging.
+2017.03.29 21:13:45 INFO  [Jetty-QTP-AdminConsole-34]: uk.ltd.getahead.dwr.DWRServlet - retrieved system configuration file: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@5791b7cb
+2017.03.29 21:13:45 INFO  [Jetty-QTP-AdminConsole-34]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'jsf' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: javax/faces/el/ValueBinding
+2017.03.29 21:13:45 INFO  [Jetty-QTP-AdminConsole-34]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.
+2017.03.29 21:13:45 INFO  [Jetty-QTP-AdminConsole-34]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'spring' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/springframework/beans/factory/BeanFactory
+2017.03.29 21:13:45 INFO  [Jetty-QTP-AdminConsole-34]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Creator 'script' not loaded due to NoClassDefFoundError. This is only an problem if you wanted to use it. Cause: org/apache/bsf/BSFException
+2017.03.29 21:13:45 INFO  [Jetty-QTP-AdminConsole-34]: uk.ltd.getahead.dwr.impl.DefaultConfiguration - Converter 'hibernate' not loaded due to ClassNotFoundException. This is only an problem if you wanted to use it. Cause: Failed to find either org.hibernate.Hibernate or net.sf.hibernate.Hibernate.
+2017.03.29 21:20:28 INFO  [Jetty-QTP-AdminConsole-161]: org.voicebridge.Config - VoiceBridge create  conference: global with pin null extension null

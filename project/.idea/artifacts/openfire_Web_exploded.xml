@@ -1,0 +1,152 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="openfire:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/openfire_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="openfire/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="openfire" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="ant-contrib.jar" module-name="openfire" />
+          <element id="library" level="module" name="cglib-nodep.jar" module-name="openfire" />
+          <element id="library" level="module" name="hsqldb.jar" module-name="openfire" />
+          <element id="library" level="module" name="jtds.jar" module-name="openfire" />
+          <element id="library" level="module" name="mail.jar" module-name="openfire" />
+          <element id="library" level="module" name="mysql.jar" module-name="openfire" />
+          <element id="library" level="module" name="postgres.jar" module-name="openfire" />
+          <element id="library" level="module" name="slf4j-log4j12.jar" module-name="openfire" />
+          <element id="library" level="module" name="i4jruntime.jar" module-name="openfire" />
+          <element id="library" level="module" name="jmock-junit4.jar" module-name="openfire" />
+          <element id="library" level="module" name="jmock-legacy.jar" module-name="openfire" />
+          <element id="library" level="module" name="jmock.jar" module-name="openfire" />
+          <element id="library" level="module" name="junit.jar" module-name="openfire" />
+          <element id="library" level="module" name="commons-codec.jar" module-name="openfire" />
+          <element id="library" level="module" name="commons-httpclient.jar" module-name="openfire" />
+          <element id="library" level="module" name="commons-lang.jar" module-name="openfire" />
+          <element id="library" level="module" name="concurrentlinkedhashmap-lru-1.0_jdk5.jar" module-name="openfire" />
+          <element id="library" level="module" name="dbutil.jar" module-name="openfire" />
+          <element id="library" level="module" name="dom4j.jar" module-name="openfire" />
+          <element id="library" level="module" name="jaxen.jar" module-name="openfire" />
+          <element id="library" level="module" name="jdom.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-continuation.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-http.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-io.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-security.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-server.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-servlet.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-util.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-webapp.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-xml.jar" module-name="openfire" />
+          <element id="library" level="module" name="jmdns.jar" module-name="openfire" />
+          <element id="library" level="module" name="jzlib.jar" module-name="openfire" />
+          <element id="library" level="module" name="libidn.jar" module-name="openfire" />
+          <element id="library" level="module" name="log4j.jar" module-name="openfire" />
+          <element id="library" level="module" name="mina-core.jar" module-name="openfire" />
+          <element id="library" level="module" name="mina-filter-compression.jar" module-name="openfire" />
+          <element id="library" level="module" name="proxool.jar" module-name="openfire" />
+          <element id="library" level="module" name="rome-fetcher.jar" module-name="openfire" />
+          <element id="library" level="module" name="rome.jar" module-name="openfire" />
+          <element id="library" level="module" name="shaj.jar" module-name="openfire" />
+          <element id="library" level="module" name="sitemesh.jar" module-name="openfire" />
+          <element id="library" level="module" name="slf4j-api.jar" module-name="openfire" />
+          <element id="library" level="module" name="standard.jar" module-name="openfire" />
+          <element id="library" level="module" name="stringprep.jar" module-name="openfire" />
+          <element id="library" level="module" name="tinder.jar" module-name="openfire" />
+          <element id="library" level="module" name="xpp3.jar" module-name="openfire" />
+          <element id="library" level="module" name="objenesis.jar" module-name="openfire" />
+          <element id="library" level="module" name="commons-lang-sources.jar" module-name="openfire" />
+          <element id="library" level="module" name="xmltask.jar" module-name="openfire" />
+          <element id="library" level="module" name="commons-fileupload-1.0.jar" module-name="openfire" />
+          <element id="library" level="module" name="lucene.jar" module-name="openfire" />
+          <element id="library" level="module" name="xstream.jar" module-name="openfire" />
+          <element id="library" level="module" name="json.jar" module-name="openfire" />
+          <element id="library" level="module" name="concurrent.jar" module-name="openfire" />
+          <element id="library" level="module" name="dwr.jar" module-name="openfire" />
+          <element id="library" level="module" name="httpclient.jar" module-name="openfire" />
+          <element id="library" level="module" name="httpcore.jar" module-name="openfire" />
+          <element id="library" level="module" name="jainsipapi.jar" module-name="openfire" />
+          <element id="library" level="module" name="jainsipri.jar" module-name="openfire" />
+          <element id="library" level="module" name="jakarta-regexp.jar" module-name="openfire" />
+          <element id="library" level="module" name="jcip-annotations.jar" module-name="openfire" />
+          <element id="library" level="module" name="jggapi.jar" module-name="openfire" />
+          <element id="library" level="module" name="jml.jar" module-name="openfire" />
+          <element id="library" level="module" name="joscar-common.jar" module-name="openfire" />
+          <element id="library" level="module" name="joscar-protocol.jar" module-name="openfire" />
+          <element id="library" level="module" name="jqql.jar" module-name="openfire" />
+          <element id="library" level="module" name="jsocks.jar" module-name="openfire" />
+          <element id="library" level="module" name="src/plugins/kraken/lib/json.jar" module-name="openfire" />
+          <element id="library" level="module" name="martyr.jar" module-name="openfire" />
+          <element id="library" level="module" name="msim.jar" module-name="openfire" />
+          <element id="library" level="module" name="openymsg.jar" module-name="openfire" />
+          <element id="library" level="module" name="smack.jar" module-name="openfire" />
+          <element id="library" level="module" name="smackx.jar" module-name="openfire" />
+          <element id="library" level="module" name="stcomm.jar" module-name="openfire" />
+          <element id="library" level="module" name="xmlrpc.jar" module-name="openfire" />
+          <element id="library" level="module" name="itext.jar" module-name="openfire" />
+          <element id="library" level="module" name="jcommon.jar" module-name="openfire" />
+          <element id="library" level="module" name="jfreechart.jar" module-name="openfire" />
+          <element id="library" level="module" name="jrobin.jar" module-name="openfire" />
+          <element id="library" level="module" name="src/plugins/monitoring/lib/lucene.jar" module-name="openfire" />
+          <element id="library" level="module" name="picocontainer.jar" module-name="openfire" />
+          <element id="library" level="module" name="recaptcha4j.jar" module-name="openfire" />
+          <element id="library" level="module" name="JainSipApi1.1.jar" module-name="openfire" />
+          <element id="library" level="module" name="nist-sip-1.2.jar" module-name="openfire" />
+          <element id="library" level="module" name="src/test/throttletest/build/lib/smack.jar" module-name="openfire" />
+          <element id="library" level="module" name="src/test/throttletest/build/lib/smackx.jar" module-name="openfire" />
+          <element id="library" level="module" name="commons-fileupload.jar" module-name="openfire" />
+          <element id="library" level="module" name="commons-io.jar" module-name="openfire" />
+          <element id="library" level="module" name="jstun-0.6.1.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-jmx.jar" module-name="openfire" />
+          <element id="library" level="module" name="mina-integration-jmx.jar" module-name="openfire" />
+          <element id="library" level="module" name="bcpg-jdk15on.jar" module-name="openfire" />
+          <element id="library" level="module" name="bcpkix-jdk15on.jar" module-name="openfire" />
+          <element id="library" level="module" name="bcprov-jdk15on.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-servlets.jar" module-name="openfire" />
+          <element id="library" level="module" name="spdy-client.jar" module-name="openfire" />
+          <element id="library" level="module" name="spdy-core.jar" module-name="openfire" />
+          <element id="library" level="module" name="spdy-http-common.jar" module-name="openfire" />
+          <element id="library" level="module" name="spdy-http-server.jar" module-name="openfire" />
+          <element id="library" level="module" name="spdy-server.jar" module-name="openfire" />
+          <element id="library" level="module" name="javax-websocket-client-impl.jar" module-name="openfire" />
+          <element id="library" level="module" name="javax-websocket-server-impl.jar" module-name="openfire" />
+          <element id="library" level="module" name="javax.ws.rs-api-2.0.1.jar" module-name="openfire" />
+          <element id="library" level="module" name="jersey-bundle-1.18.jar" module-name="openfire" />
+          <element id="library" level="module" name="org.apache.taglibs.taglibs-standard-impl.jar" module-name="openfire" />
+          <element id="library" level="module" name="org.apache.taglibs.taglibs-standard-spec.jar" module-name="openfire" />
+          <element id="library" level="module" name="org.mortbay.jasper.apache-el.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-plus.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-schemas.jar" module-name="openfire" />
+          <element id="library" level="module" name="org.eclipse.jetty.apache-jsp.jar" module-name="openfire" />
+          <element id="library" level="module" name="org.eclipse.jetty.orbit.org.eclipse.jdt.core.jar" module-name="openfire" />
+          <element id="library" level="module" name="jcl-over-slf4j.jar" module-name="openfire" />
+          <element id="library" level="module" name="websocket-api.jar" module-name="openfire" />
+          <element id="library" level="module" name="websocket-client.jar" module-name="openfire" />
+          <element id="library" level="module" name="websocket-common.jar" module-name="openfire" />
+          <element id="library" level="module" name="websocket-server.jar" module-name="openfire" />
+          <element id="library" level="module" name="websocket-servlet.jar" module-name="openfire" />
+          <element id="library" level="module" name="asm-3.1.jar" module-name="openfire" />
+          <element id="library" level="module" name="src/plugins/restAPI/lib/jersey-bundle-1.18.jar" module-name="openfire" />
+          <element id="library" level="module" name="rayo-core-2.0-SNAPSHOT.jar" module-name="openfire" />
+          <element id="library" level="module" name="netty-3.5.1.Final.jar" module-name="openfire" />
+          <element id="library" level="module" name="freetts.jar" module-name="openfire" />
+          <element id="library" level="module" name="commons-pool2-2.3.jar" module-name="openfire" />
+          <element id="library" level="module" name="hazelcast-3.5.1.jar" module-name="openfire" />
+          <element id="library" level="module" name="codecLib_dtmf.jar" module-name="openfire" />
+          <element id="library" level="module" name="jspeex.jar" module-name="openfire" />
+          <element id="library" level="module" name="guava-11.0.1.jar" module-name="openfire" />
+          <element id="library" level="module" name="stun.jar" module-name="openfire" />
+          <element id="library" level="module" name="validation-api-1.1.0.Final.jar" module-name="openfire" />
+          <element id="library" level="module" name="cmu_us_kal.jar" module-name="openfire" />
+          <element id="library" level="module" name="en_us.jar" module-name="openfire" />
+          <element id="library" level="module" name="jetty-annotations.jar" module-name="openfire" />
+          <element id="library" level="module" name="quartz-2.2.2.jar" module-name="openfire" />
+          <element id="library" level="module" name="genson-1.4.jar" module-name="openfire" />
+          <element id="library" level="module" name="itextpdf-5.4.1.jar" module-name="openfire" />
+          <element id="library" level="module" name="jsmpp.jar" module-name="openfire" />
+          <element id="library" level="project" name="ant" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

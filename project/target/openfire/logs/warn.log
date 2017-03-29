@@ -1,0 +1,1304 @@
+2017.03.12 11:09:20 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: CertifcateStoreManager has not been initialized yet. HTTPS will be unavailable.
+2017.03.12 11:09:29 org.eclipse.jetty.servlet.ServletHandler - /setup/index.jsp
+java.lang.NullPointerException
+	at org.jivesoftware.admin.AdminConsole.getAppName(AdminConsole.java:111)
+	at org.jivesoftware.openfire.admin.decorators.setup_jsp._jspService(setup_jsp.java:192)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:595)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.Dispatcher.include(Dispatcher.java:115)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.applyDecorator(PageFilter.java:156)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.util.LocaleFilter.doFilter(LocaleFilter.java:76)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.util.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.12 11:10:28 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: CertifcateStoreManager has not been initialized yet. HTTPS will be unavailable.
+2017.03.12 11:10:33 org.eclipse.jetty.servlet.ServletHandler - /setup/index.jsp
+java.util.MissingResourceException: Can't find bundle for base name openfire_i18n, locale en
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1499)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1322)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:413)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:475)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:444)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:428)
+	at org.jivesoftware.admin.AdminConsole.getAdminText(AdminConsole.java:213)
+	at org.jivesoftware.admin.AdminConsole.getAppName(AdminConsole.java:114)
+	at org.jivesoftware.openfire.admin.decorators.setup_jsp._jspService(setup_jsp.java:192)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:595)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.Dispatcher.include(Dispatcher.java:115)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.applyDecorator(PageFilter.java:156)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.util.LocaleFilter.doFilter(LocaleFilter.java:76)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.util.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.12 11:11:21 org.eclipse.jetty.servlet.ServletHandler - /setup/index.jsp
+java.util.MissingResourceException: Can't find bundle for base name openfire_i18n, locale en
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1499)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1322)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:413)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:475)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:444)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:428)
+	at org.jivesoftware.admin.AdminConsole.getAdminText(AdminConsole.java:213)
+	at org.jivesoftware.admin.AdminConsole.getAppName(AdminConsole.java:114)
+	at org.jivesoftware.openfire.admin.decorators.setup_jsp._jspService(setup_jsp.java:192)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:595)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.Dispatcher.include(Dispatcher.java:115)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.applyDecorator(PageFilter.java:156)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.util.LocaleFilter.doFilter(LocaleFilter.java:76)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.util.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.12 11:12:28 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: CertifcateStoreManager has not been initialized yet. HTTPS will be unavailable.
+2017.03.12 11:12:34 org.eclipse.jetty.servlet.ServletHandler - /setup/index.jsp
+java.util.MissingResourceException: Can't find bundle for base name openfire_i18n, locale en
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1499)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1322)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:796)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:413)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:475)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:444)
+	at org.jivesoftware.util.LocaleUtils.getLocalizedString(LocaleUtils.java:428)
+	at org.jivesoftware.admin.AdminConsole.getAdminText(AdminConsole.java:213)
+	at org.jivesoftware.admin.AdminConsole.getAppName(AdminConsole.java:114)
+	at org.jivesoftware.openfire.admin.decorators.setup_jsp._jspService(setup_jsp.java:192)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:595)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.Dispatcher.include(Dispatcher.java:115)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.applyDecorator(PageFilter.java:156)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.util.LocaleFilter.doFilter(LocaleFilter.java:76)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.util.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.12 11:13:26 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: CertifcateStoreManager has not been initialized yet. HTTPS will be unavailable.
+2017.03.12 11:14:32 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: CertifcateStoreManager has not been initialized yet. HTTPS will be unavailable.
+2017.03.12 11:32:52 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.12 11:32:57 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by linmaochang@qq.com from 192.168.2.1
+2017.03.12 11:33:05 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 192.168.2.1
+2017.03.12 11:33:26 org.apache.commons.httpclient.HttpMethodBase - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2017.03.12 11:33:27 org.apache.commons.httpclient.HttpMethodBase - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2017.03.12 11:33:49 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 192.168.2.1
+2017.03.12 11:34:28 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 192.168.2.1
+2017.03.12 11:38:50 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.12 15:43:04 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.12 15:45:44 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.12 15:47:33 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.12 15:55:24 org.jivesoftware.database.SequenceManager - Autocreating jiveID row for type '24'
+2017.03.12 15:55:24 org.jivesoftware.database.SequenceManager - Autocreating jiveID row for type '21'
+2017.03.12 15:55:24 org.jivesoftware.database.SequenceManager - Autocreating jiveID row for type '20'
+2017.03.12 16:26:49 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.12 16:28:23 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.12 17:10:55 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.12 17:19:34 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.27 22:24:12 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.27 22:24:13 org.apache.commons.httpclient.HttpMethodBase - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2017.03.27 22:24:13 org.apache.commons.httpclient.HttpMethodBase - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2017.03.27 22:24:32 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 192.168.2.1
+2017.03.27 22:39:10 org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/mucservice/chatrooms
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.27 22:49:03 org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/mucservice/chatrooms
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.27 22:51:01 org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/restapi/v1/users
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.27 22:51:44 org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/restapi/v1/users
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.27 22:56:23 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.27 22:56:52 org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/restapi/v1/users
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.27 22:58:28 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.27 23:03:22 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.27 23:03:28 org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/restapi/v1/users
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.logicalcobwebs.proxool.openfire - #0005 was active for 10819897 milliseconds and has been removed automaticaly. The Thread responsible was named 'pool-monitoring6', but the last SQL it performed is unknown because the trace property is not enabled.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 02:24:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:14 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.logicalcobwebs.proxool.openfire - #0001 was active for 21077529 milliseconds and has been removed automaticaly. The Thread responsible was named 'TaskEngine-pool-9', but the last SQL it performed is unknown because the trace property is not enabled.
+2017.03.28 08:15:42 org.logicalcobwebs.proxool.openfire - #0002 was active for 21076585 milliseconds and has been removed automaticaly. The Thread responsible was named 'pool-monitoring8', but the last SQL it performed is unknown because the trace property is not enabled.
+2017.03.28 08:15:42 org.logicalcobwebs.proxool.openfire - #0003 was active for 21076092 milliseconds and has been removed automaticaly. The Thread responsible was named 'pool-fastpath9', but the last SQL it performed is unknown because the trace property is not enabled.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:13 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:43 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:43 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:43 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:43 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:43 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:43 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:43 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:43 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:43 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:42 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:54 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:54 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:54 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:55 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:15:55 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:16:02 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:16:02 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:16:02 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490639040 for statistic server_sessions is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic muc_rooms is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic conversations is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic muc_users is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic server_bytes_in is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic sessions is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic packet_count is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic proxyTransferRate is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic muc_occupants is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic muc_incoming is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660100 for statistic muc_outgoing is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic server_sessions is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic muc_rooms is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic conversations is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic muc_users is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic server_bytes_in is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic sessions is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic packet_count is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic proxyTransferRate is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample time of 1490660160 for statistic muc_occupants is invalid.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:16:03 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 08:16:20 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.28 22:59:04 org.jivesoftware.database.SequenceManager - Autocreating jiveID row for type '25'
+2017.03.28 23:00:42 org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/mucservice/chatrooms
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:21 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:24 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:25 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:25 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:25 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:25 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:25 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:25 org.logicalcobwebs.proxool.openfire - #0016 was active for 10806094 milliseconds and has been removed automaticaly. The Thread responsible was named 'pool-fastpath2924', but the last SQL it performed is unknown because the trace property is not enabled.
+2017.03.29 02:17:25 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:25 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:26 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:26 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:26 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:26 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:26 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:26 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:26 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:26 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:27 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:27 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:27 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:27 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:27 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:28 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:28 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:28 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:28 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:29 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:29 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:29 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:29 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:29 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:30 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:30 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:30 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:30 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:30 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:30 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:30 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:31 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:31 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:31 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:31 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:31 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:32 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:32 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:32 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:32 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:32 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:32 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:32 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:33 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:33 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:33 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:33 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:33 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:33 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:34 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:35 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:36 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:38 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:38 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:38 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:39 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 02:17:40 org.jivesoftware.openfire.reporting.stats.StatsEngine - Sample task not run because less then a second has passed since last sample.
+2017.03.29 20:25:54 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.29 20:34:08 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.03.29 20:35:23 org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/mucservice/chatrooms
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.29 20:50:42 org.eclipse.jetty.servlet.ServletHandler - Error for /plugins/restapi/v1/users
+java.lang.AbstractMethodError: javax.ws.rs.core.UriBuilder.uri(Ljava/lang/String;)Ljavax/ws/rs/core/UriBuilder;
+	at javax.ws.rs.core.UriBuilder.fromUri(UriBuilder.java:119)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.parsePage(PageFilter.java:118)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:52)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:722)
+2017.03.29 21:09:19 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
